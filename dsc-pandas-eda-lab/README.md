@@ -94,6 +94,8 @@ And set `%matplotlib inline` so the graphs will display immediately below the ce
 
 ```python
 # Your code here
+
+# Code in index file!
 ```
 
 Now, use pandas to open the file located at `data/ames.csv` ([documentation here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)). Specify the argument `index_col=0` in order to avoid creating an extra `Id` column. Name the resulting dataframe `df`.
